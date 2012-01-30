@@ -3,14 +3,14 @@
 
 
 Name:             R-%{packname}
-Version:          0.5.4
+Version:          0.5.7
 Release:          1%{?dist}
 Summary:          Interpolation of irregularly spaced data
 
 Group:            Applications/Engineering 
 License:          file LICENSE
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.5-4.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.5-7.tar.gz
 BuildRoot:        %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 
@@ -38,5 +38,7 @@ rm -rf %{buildroot}
 %files
 %defattr(-, root, root, -)
 %changelog
+* Mon Jan 30 2012 Adam Huffman <verdurin@fedoraproject.org> 0.5.7-1
+- update to upstream release 0.5.7
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 0.5.4-1
 - initial package for Fedora
