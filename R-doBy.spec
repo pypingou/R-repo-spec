@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          4.4.3
-Release:          1%{?dist}
+Version:          4.5.1
+Release:          1%{dist}
 Summary:          doBy - Groupwise summary statistics, general linear contrasts, LSMEANS (least-squares-means), and other utilities
 
 Group:            Applications/Engineering 
@@ -62,5 +62,8 @@ rm -rf %{buildroot}
 %{rlibdir}/doBy/INDEX
 
 %changelog
+* Sat Feb 11 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 4.5.1-1
+- Update to version 4.5.1
+
 * Fri Dec 09 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 4.4.3-1
 - initial package for Fedora
