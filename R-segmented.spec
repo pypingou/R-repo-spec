@@ -3,14 +3,14 @@
 
 
 Name:             R-%{packname}
-Version:          0.2.8.2
-Release:          1%{?dist}
+Version:          0.2.8.4
+Release:          1%{dist}
 Summary:          Segmented relationships in regression models
 
 Group:            Applications/Engineering 
 License:          GPL
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.2-8.2.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.2-8.4.tar.gz
 BuildRoot:        %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch:        noarch
 Requires:         R-core
@@ -53,5 +53,8 @@ rm -rf %{buildroot}
 %{rlibdir}/segmented/NAMESPACE
 
 %changelog
+* Sat Feb 11 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 0.2.8.4-1
+- Update to version 0.2.8.4
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 0.2.8.2-1
 - initial package for Fedora
