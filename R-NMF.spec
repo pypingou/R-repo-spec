@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          0.5.05
-Release:          1%{?dist}
+Version:          0.6.09
+Release:          1%{dist}
 Summary:          Algorithms and framework for Nonnegative Matrix Factorization (NMF).
 
 Group:            Applications/Engineering 
@@ -14,8 +14,9 @@ Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.t
 BuildRoot:        %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 Requires:         R-methods R-stats R-graphics 
-
+Requires:         R-digest R-gridBase R-stringr R-colorspace
 BuildRequires:    R-devel tex(latex) R-methods R-stats R-graphics 
+BuildRequires:    R-digest R-gridBase R-stringr R-colorspace
 
 %description
 This package provides a framework to perform Non-negative Matrix
@@ -57,5 +58,8 @@ rm -rf %{buildroot}
 %{rlibdir}/NMF/Meta
 
 %changelog
+* Sat Feb 11 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 0.6.09-1
+- Update to version 0.6.09
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 0.5.05-1
 - initial package for Fedora
