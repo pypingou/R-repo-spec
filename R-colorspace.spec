@@ -3,14 +3,14 @@
 
 
 Name:             R-%{packname}
-Version:          1.1.0
+Version:          1.1.1
 Release:          1%{?dist}
 Summary:          Color Space Manipulation
 
 Group:            Applications/Engineering 
 License:          BSD
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.1-0.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.1-1.tar.gz
 BuildRoot:        %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 Requires:         R-methods 
@@ -39,6 +39,21 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-, root, root, -)
+%doc %{rlibdir}/colorspace/DESCRIPTION
+%doc %{rlibdir}/colorspace/CITATION
+%doc %{rlibdir}/colorspace/html
+%doc %{rlibdir}/colorspace/NEWS
+%{rlibdir}/colorspace/INDEX
+%{rlibdir}/colorspace/doc
+%{rlibdir}/colorspace/help
+%{rlibdir}/colorspace/NAMESPACE
+%{rlibdir}/colorspace/R
+%{rlibdir}/colorspace/libs
+%{rlibdir}/colorspace/Meta
+
 %changelog
+* Sat Feb 11 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 1.1.1-1
+- Update to 1.1.1
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 1.1.0-1
 - initial package for Fedora
