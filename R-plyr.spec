@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          1.6
-Release:          1%{?dist}
+Version:          1.7.1
+Release:          1%{dist}
 Summary:          Tools for splitting, applying and combining data
 
 Group:            Applications/Engineering 
@@ -60,5 +60,8 @@ rm -rf %{buildroot}
 %{rlibdir}/plyr/data
 
 %changelog
+* Sat Feb 11 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 1.7.1-1
+- Update to version 1.7.1
+
 * Fri Dec 09 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 1.6-1
 - initial package for Fedora
