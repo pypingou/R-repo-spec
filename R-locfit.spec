@@ -4,11 +4,11 @@
 
 Name:             R-%{packname}
 Version:          1.5.6
-Release:          1%{?dist}
+Release:          2%{?dist}
 Summary:          Local Regression, Likelihood and Density Estimation.
 
 Group:            Applications/Engineering 
-License:          GPL (>= 2)
+License:          GPLv2+
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.5-6.tar.gz
 BuildRoot:        %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
@@ -37,6 +37,20 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-, root, root, -)
+%{rlibdir}/%{packname}/DESCRIPTION
+%{rlibdir}/%{packname}/INDEX
+%{rlibdir}/%{packname}/NAMESPACE
+%{rlibdir}/%{packname}/NEWS
+%{rlibdir}/%{packname}/Meta
+%{rlibdir}/%{packname}/R
+%{rlibdir}/%{packname}/data
+%{rlibdir}/%{packname}/help
+%{rlibdir}/%{packname}/html
+%{rlibdir}/%{packname}/libs
+
 %changelog
+* Mon Jan 30 2012 Adam Huffman <verdurin@fedoraproject.org> - 1.5.6-2
+- fix files
+
 * Fri Nov 18 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 1.5.6-1
 - initial package for Fedora
