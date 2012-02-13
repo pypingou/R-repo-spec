@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          0.99.3
-Release:          1%{?dist}
+Version:          1.0.2
+Release:          1%{dist}
 Summary:          R functions for Generalized Simulated Annealing
 
 Group:            Applications/Engineering 
@@ -51,5 +51,8 @@ rm -rf %{buildroot}
 %{rlibdir}/GenSA/Meta
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 1.0.2-1
+- Update to version 1.0.2
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 0.99.3-1
 - initial package for Fedora
