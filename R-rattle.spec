@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          2.6.14
-Release:          1%{?dist}
+Version:          2.6.16
+Release:          1%{dist}
 Summary:          Graphical user interface for data mining in R
 
 Group:            Applications/Engineering 
@@ -67,5 +67,8 @@ rm -rf %{buildroot}
 %{rlibdir}/rattle/arff
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 2.6.16-1
+- Update to version 2.6.16
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 2.6.14-1
 - initial package for Fedora
