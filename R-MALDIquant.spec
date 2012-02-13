@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          0.4
-Release:          1%{?dist}
+Version:          0.5
+Release:          1%{dist}
 Summary:          Quantitative analysis of MALDI-TOF MS data
 
 Group:            Applications/Engineering 
@@ -52,5 +52,8 @@ rm -rf %{buildroot}
 %{rlibdir}/MALDIquant/libs
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 0.5-1
+- Update to version 0.5
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 0.4-1
 - initial package for Fedora
