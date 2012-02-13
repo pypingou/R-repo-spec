@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          0.7.3
-Release:          1%{?dist}
+Version:          0.7.4
+Release:          1%{dist}
 Summary:          Improved Foreign Function Interface (FFI) and Dynamic Bindings to C Libraries (e.g. OpenGL)
 
 Group:            Applications/Engineering 
@@ -61,5 +61,8 @@ rm -rf %{buildroot}
 %{rlibdir}/rdyncall/help
 
 %changelog
+* Sat Feb 11 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 0.7.4-1
+- Update to version 0.7.4
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 0.7.3-1
 - initial package for Fedora
