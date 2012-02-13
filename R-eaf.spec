@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          1.03
-Release:          1%{?dist}
+Version:          1.04
+Release:          1%{dist}
 Summary:          Plots of the Empirical Attainment Function
 
 Group:            Applications/Engineering 
@@ -55,5 +55,8 @@ rm -rf %{buildroot}
 %{rlibdir}/eaf/libs
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 1.04-1
+- Update to version 1.04
+
 * Thu Dec 08 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 1.03-1
 - initial package for Fedora
