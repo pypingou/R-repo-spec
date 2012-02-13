@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          1.0.6
-Release:          1%{?dist}
+Version:          1.0.7
+Release:          1%{dist}
 Summary:          Generate LaTeX tables of descriptive statistics
 
 Group:            Applications/Engineering 
@@ -50,5 +50,8 @@ rm -rf %{buildroot}
 %{rlibdir}/reporttools/NAMESPACE
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 1.0.7-1
+- Update to version 1.0.7
+
 * Fri Nov 18 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 1.0.6-1
 - initial package for Fedora
