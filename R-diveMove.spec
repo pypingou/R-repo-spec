@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          1.2.7
-Release:          1%{?dist}
+Version:          1.3.0
+Release:          1%{dist}
 Summary:          Dive analysis and calibration
 
 Group:            Applications/Engineering 
@@ -55,5 +55,8 @@ rm -rf %{buildroot}
 %{rlibdir}/diveMove/R
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 1.3.0-1
+- Update to version 1.3.0
+
 * Fri Dec 09 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 1.2.7-1
 - initial package for Fedora
