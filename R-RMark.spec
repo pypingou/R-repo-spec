@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          2.0.9
-Release:          1%{?dist}
+Version:          2.1.0
+Release:          1%{dist}
 Summary:          R Code for MARK Analysis
 
 Group:            Applications/Engineering 
@@ -57,5 +57,8 @@ rm -rf %{buildroot}
 %{rlibdir}/RMark/INDEX
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 2.1.0-1
+- Update to version 2.1.0
+
 * Fri Dec 09 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 2.0.9-1
 - initial package for Fedora
