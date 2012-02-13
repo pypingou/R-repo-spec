@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          1.2.1
-Release:          1%{?dist}
+Version:          1.2.9
+Release:          1%{dist}
 Summary:          Product Limit Estimation
 
 Group:            Applications/Engineering 
@@ -49,5 +49,8 @@ rm -rf %{buildroot}
 %{rlibdir}/prodlim/NAMESPACE
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 1.2.9-1
+- Update to version 1.2.9
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 1.2.1-1
 - initial package for Fedora
