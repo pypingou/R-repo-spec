@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          1.49
-Release:          1%{?dist}
+Version:          1.50
+Release:          1%{dist}
 Summary:          Statistical Methods for Quality Science
 
 Group:            Applications/Engineering 
@@ -65,5 +65,8 @@ rm -rf %{buildroot}
 %{rlibdir}/qualityTools/Meta
 
 %changelog
+* Mon Feb 13 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 1.50-1
+- Update to version 1.50
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 1.49-1
 - initial package for Fedora
