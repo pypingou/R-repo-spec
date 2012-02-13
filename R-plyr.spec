@@ -60,6 +60,9 @@ rm -rf %{buildroot}
 %{rlibdir}/plyr/data
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 1.7.1-1
+- Update to version 1.7.1
+
 * Sat Feb 11 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 1.7.1-1
 - Update to version 1.7.1
 
