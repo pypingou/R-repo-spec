@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          2.0.4
-Release:          1%{?dist}
+Version:          2.0.6
+Release:          1%{dist}
 Summary:          Estimate a Log-Concave Probability Density from iid Observations
 
 Group:            Applications/Engineering 
@@ -63,5 +63,8 @@ rm -rf %{buildroot}
 %{rlibdir}/logcondens/help
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 2.0.6-1
+- Update to version 2.0.6
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 2.0.4-1
 - initial package for Fedora
