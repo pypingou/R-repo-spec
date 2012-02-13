@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          1.6.0
-Release:          1%{?dist}
+Version:          1.6.2
+Release:          1%{dist}
 Summary:          Efficient Estimation of Covariance and (Partial) Correlation
 
 Group:            Applications/Engineering 
@@ -62,5 +62,8 @@ rm -rf %{buildroot}
 %{rlibdir}/corpcor/LICENSE
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 1.6.2-1
+- Update to version 1.6.2
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 1.6.0-1
 - initial package for Fedora
