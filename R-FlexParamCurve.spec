@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          1.2
-Release:          1%{?dist}
+Version:          1.3
+Release:          1%{dist}
 Summary:          Tools to Fit Flexible Parametric Curves
 
 Group:            Applications/Engineering 
@@ -50,5 +50,8 @@ rm -rf %{buildroot}
 %{rlibdir}/FlexParamCurve/data
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 1.3-1
+- Update to version 1.3
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 1.2-1
 - initial package for Fedora
