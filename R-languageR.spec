@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          1.2
-Release:          1%{?dist}
+Version:          1.4
+Release:          1%{dist}
 Summary:          Data sets and functions with "Analyzing Linguistic Data: A practical introduction to statistics".
 
 Group:            Applications/Engineering 
@@ -53,5 +53,8 @@ rm -rf %{buildroot}
 %{rlibdir}/languageR/NAMESPACE
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 1.4-1
+- Update to version 1.4
+
 * Thu Dec 08 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 1.2-1
 - initial package for Fedora
