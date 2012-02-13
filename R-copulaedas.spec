@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          1.0.3
-Release:          1%{?dist}
+Version:          1.1.0
+Release:          1%{dist}
 Summary:          Estimation of Distribution Algorithms Based on Copula Theory
 
 Group:            Applications/Engineering 
@@ -56,5 +56,8 @@ rm -rf %{buildroot}
 %{rlibdir}/copulaedas/Meta
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 1.1.0-1
+- Update to version 1.1.0
+
 * Fri Dec 02 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 1.0.3-1
 - initial package for Fedora
