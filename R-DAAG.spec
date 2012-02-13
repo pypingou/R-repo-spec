@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          1.08
-Release:          1%{?dist}
+Version:          1.12
+Release:          1%{dist}
 Summary:          Data Analysis And Graphics data and functions
 
 Group:            Applications/Engineering 
@@ -54,5 +54,8 @@ rm -rf %{buildroot}
 %{rlibdir}/DAAG/data
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 1.12-1
+- Update to version 1.12
+
 * Thu Dec 08 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 1.08-1
 - initial package for Fedora
