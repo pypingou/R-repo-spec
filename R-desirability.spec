@@ -4,7 +4,7 @@
 
 Name:             R-%{packname}
 Version:          1.03
-Release:          1%{?dist}
+Release:          1%{dist}
 Summary:          Desirabiliy Function Optimization and Ranking
 
 Group:            Applications/Engineering 
@@ -49,5 +49,8 @@ rm -rf %{buildroot}
 %{rlibdir}/desirability/Meta
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 1.03-1
+- Update to version 1.03
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 1.03-1
 - initial package for Fedora
