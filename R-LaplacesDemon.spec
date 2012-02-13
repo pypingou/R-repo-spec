@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          11.11.03
-Release:          1%{?dist}
+Version:          12.01.02
+Release:          1%{dist}
 Summary:          Software for Bayesian Inference
 
 Group:            Applications/Engineering 
@@ -49,5 +49,8 @@ rm -rf %{buildroot}
 %{rlibdir}/LaplacesDemon/help
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 12.01.02-1
+- Update to version 12.01.02
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 11.11.03-1
 - initial package for Fedora
