@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          2011.07.31
-Release:          1%{?dist}
+Version:          2012.01.18
+Release:          1%{dist}
 Summary:          Selected ISO codes
 
 Group:            Applications/Engineering 
@@ -51,5 +51,8 @@ rm -rf %{buildroot}
 %{rlibdir}/ISOcodes/INDEX
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 2012.01.18-1
+- Update to version 2012.01.18
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 2011.07.31-1
 - initial package for Fedora
