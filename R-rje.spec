@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          1.0
-Release:          1%{?dist}
+Version:          1.2
+Release:          1%{dist}
 Summary:          Miscellaneous useful functions
 
 Group:            Applications/Engineering 
@@ -49,5 +49,8 @@ rm -rf %{buildroot}
 %{rlibdir}/rje/help
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 1.2-1
+- Update to version 1.2
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 1.0-1
 - initial package for Fedora
