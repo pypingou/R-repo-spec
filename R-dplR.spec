@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          1.5.0
-Release:          1%{?dist}
+Version:          1.5.2
+Release:          1%{dist}
 Summary:          Dendrochronology Program Library in R
 
 Group:            Applications/Engineering 
@@ -54,5 +54,8 @@ rm -rf %{buildroot}
 %{rlibdir}/dplR/Meta
 
 %changelog
+* Mon Feb 13 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 1.5.2-1
+- Update to version 1.5.2
+
 * Thu Dec 08 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 1.5.0-1
 - initial package for Fedora
