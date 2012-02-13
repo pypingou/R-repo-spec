@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          0.95
-Release:          1%{?dist}
+Version:          0.952
+Release:          1%{dist}
 Summary:          svmpath: the SVM Path algorithm
 
 Group:            Applications/Engineering 
@@ -49,5 +49,8 @@ rm -rf %{buildroot}
 %{rlibdir}/svmpath/help
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 0.952-1
+- Update to version 0.952
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 0.95-1
 - initial package for Fedora
