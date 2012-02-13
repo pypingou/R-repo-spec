@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          1.21
-Release:          1%{?dist}
+Version:          1.24
+Release:          1%{dist}
 Summary:          Model selection and multimodel inference based on (Q)AIC(c)
 
 Group:            Applications/Engineering 
@@ -70,5 +70,8 @@ rm -rf %{buildroot}
 %{rlibdir}/AICcmodavg/help
 
 %changelog
+* Mon Feb 13 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 1.24-1
+- Update to version 1.24
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 1.21-1
 - initial package for Fedora
