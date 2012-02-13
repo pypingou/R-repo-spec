@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          0.9.1
-Release:          1%{?dist}
+Version:          0.9.2
+Release:          1%{dist}
 Summary:          Parallel Computing Toolset for genome-wide association studies
 
 Group:            Applications/Engineering 
@@ -53,5 +53,8 @@ rm -rf %{buildroot}
 %{rlibdir}/SNPRelate/Meta
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 0.9.2-1
+- Update to version 0.9.2
+
 * Thu Dec 08 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 0.9.1-1
 - initial package for Fedora
