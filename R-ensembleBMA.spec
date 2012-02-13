@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          5.0.2
-Release:          1%{?dist}
+Version:          5.0.3
+Release:          1%{dist}
 Summary:          Probabilistic Forecasting using Ensembles and Bayesian Model Averaging
 
 Group:            Applications/Engineering 
@@ -50,5 +50,8 @@ rm -rf %{buildroot}
 %{rlibdir}/ensembleBMA/data
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 5.0.3-1
+- Update to version 5.0.3
+
 * Fri Nov 18 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 5.0.2-1
 - initial package for Fedora
