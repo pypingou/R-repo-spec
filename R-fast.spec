@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          0.51
-Release:          1%{?dist}
+Version:          0.60
+Release:          1%{dist}
 Summary:          Implementation of the Fourier Amplitute Sensitivity Test (FAST)
 
 Group:            Applications/Engineering 
@@ -50,5 +50,8 @@ rm -rf %{buildroot}
 %{rlibdir}/fast/Meta
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 0.60-1
+- Update to version 0.60
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 0.51-1
 - initial package for Fedora
