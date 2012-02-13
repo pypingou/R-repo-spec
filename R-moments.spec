@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          0.12
-Release:          1%{?dist}
+Version:          0.13
+Release:          1%{dist}
 Summary:          Moments, cumulants, skewness, kurtosis and related tests
 
 Group:            Applications/Engineering 
@@ -49,5 +49,8 @@ rm -rf %{buildroot}
 %{rlibdir}/moments/Meta
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 0.13-1
+- Update to version 0.13
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 0.12-1
 - initial package for Fedora
