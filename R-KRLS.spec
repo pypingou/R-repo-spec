@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          0.1
-Release:          1%{?dist}
+Version:          0.2
+Release:          1%{dist}
 Summary:          Kernel-based Regularized Least Squares (KRLS)
 
 Group:            Applications/Engineering 
@@ -53,5 +53,8 @@ rm -rf %{buildroot}
 %{rlibdir}/KRLS/LICENSE
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 0.2-1
+- Update to version 0.2
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 0.1-1
 - initial package for Fedora
