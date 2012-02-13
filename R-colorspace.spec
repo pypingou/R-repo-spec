@@ -4,7 +4,7 @@
 
 Name:             R-%{packname}
 Version:          1.1.1
-Release:          1%{?dist}
+Release:          1%{dist}
 Summary:          Color Space Manipulation
 
 Group:            Applications/Engineering 
@@ -52,6 +52,9 @@ rm -rf %{buildroot}
 %{rlibdir}/colorspace/Meta
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 1.1.1-1
+- Update to version 1.1.1
+
 * Sat Feb 11 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 1.1.1-1
 - Update to 1.1.1
 
