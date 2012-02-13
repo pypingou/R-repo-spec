@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          0.4.11
-Release:          1%{?dist}
+Version:          0.4.12
+Release:          1%{dist}
 Summary:          Poisson-Gamma Additive Models.
 
 Group:            Applications/Engineering 
@@ -52,5 +52,8 @@ rm -rf %{buildroot}
 %{rlibdir}/pgam/Meta
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 0.4.12-1
+- Update to version 0.4.12
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 0.4.11-1
 - initial package for Fedora
