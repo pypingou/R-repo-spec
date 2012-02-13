@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          0.1.3
-Release:          1%{?dist}
+Version:          0.1.5
+Release:          1%{dist}
 Summary:          Chemometrics with R - Multivariate Data Analysis in the Natural Sciences and Life Sciences
 
 Group:            Applications/Engineering 
@@ -43,5 +43,8 @@ rm -rf %{buildroot}
 %files
 %defattr(-, root, root, -)
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 0.1.5-1
+- Update to version 0.1.5
+
 * Sun Dec 11 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 0.1.3-1
 - initial package for Fedora
