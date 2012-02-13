@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          6.0
-Release:          1%{?dist}
+Version:          7.0
+Release:          1%{dist}
 Summary:          Independent Factor Analysis
 
 Group:            Applications/Engineering 
@@ -51,5 +51,8 @@ rm -rf %{buildroot}
 %{rlibdir}/ifa/help
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 7.0-1
+- Update to version 7.0
+
 * Thu Dec 08 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 6.0-1
 - initial package for Fedora
