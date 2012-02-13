@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          2.0.7
-Release:          1%{?dist}
+Version:          2.0.9
+Release:          1%{dist}
 Summary:          Supervised and unsupervised self-organising maps
 
 Group:            Applications/Engineering 
@@ -50,5 +50,8 @@ rm -rf %{buildroot}
 %{rlibdir}/kohonen/data
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 2.0.9-1
+- Update to version 2.0.9
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 2.0.7-1
 - initial package for Fedora
