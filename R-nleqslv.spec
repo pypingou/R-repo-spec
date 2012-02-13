@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          1.9.0
-Release:          1%{?dist}
+Version:          1.9.2
+Release:          1%{dist}
 Summary:          Solve systems of non linear equations
 
 Group:            Applications/Engineering 
@@ -51,5 +51,8 @@ rm -rf %{buildroot}
 %{rlibdir}/nleqslv/libs
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 1.9.2-1
+- Update to version 1.9.2
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 1.9.0-1
 - initial package for Fedora
