@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          2.6
-Release:          1%{?dist}
+Version:          2.7.1
+Release:          1%{dist}
 Summary:          Mokken Scale Analysis in R
 
 Group:            Applications/Engineering 
@@ -52,5 +52,8 @@ rm -rf %{buildroot}
 %{rlibdir}/mokken/R
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 2.7.1-1
+- Update to version 2.7.1
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 2.6-1
 - initial package for Fedora
