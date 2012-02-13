@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          1.17
-Release:          1%{?dist}
+Version:          1.18
+Release:          1%{dist}
 Summary:          Time Indexes and Time Indexed Series
 
 Group:            Applications/Engineering 
@@ -49,5 +49,8 @@ rm -rf %{buildroot}
 %{rlibdir}/tis/libs
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 1.18-1
+- Update to version 1.18
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 1.17-1
 - initial package for Fedora
