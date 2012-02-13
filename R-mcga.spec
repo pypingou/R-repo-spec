@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          2.0.2
-Release:          1%{?dist}
+Version:          2.0.5
+Release:          1%{dist}
 Summary:          Machine coded genetic algorihms for real-valued optimization problems
 
 Group:            Applications/Engineering 
@@ -57,5 +57,8 @@ rm -rf %{buildroot}
 %{rlibdir}/mcga/Meta
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 2.0.5-1
+- Update to version 2.0.5
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 2.0.2-1
 - initial package for Fedora
