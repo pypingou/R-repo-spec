@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          1.5.2
-Release:          1%{?dist}
+Version:          1.6.0
+Release:          1%{dist}
 Summary:          Functions to assess the strength and significance of relationship of species site group associations
 
 Group:            Applications/Engineering 
@@ -52,5 +52,8 @@ rm -rf %{buildroot}
 %{rlibdir}/indicspecies/data
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 1.6.0-1
+- Update to version 1.6.0
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 1.5.2-1
 - initial package for Fedora
