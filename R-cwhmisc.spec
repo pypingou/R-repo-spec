@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          2.1
-Release:          1%{?dist}
+Version:          3.0
+Release:          1%{dist}
 Summary:          CWH's functions for maths, plotting, printing, statistics, strings, and tools
 
 Group:            Applications/Engineering 
@@ -48,5 +48,8 @@ rm -rf %{buildroot}
 %{rlibdir}/cwhmisc/help
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 3.0-1
+- Update to version 3.0
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 2.1-1
 - initial package for Fedora
