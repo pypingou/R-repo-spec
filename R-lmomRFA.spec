@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          2.3
-Release:          1%{?dist}
+Version:          2.4
+Release:          1%{dist}
 Summary:          Regional frequency analysis using L-moments
 
 Group:            Applications/Engineering 
@@ -53,5 +53,8 @@ rm -rf %{buildroot}
 %{rlibdir}/lmomRFA/INDEX
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 2.4-1
+- Update to version 2.4
+
 * Fri Nov 18 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 2.3-1
 - initial package for Fedora
