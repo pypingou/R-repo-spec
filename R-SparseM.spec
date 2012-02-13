@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          0.89
-Release:          1%{?dist}
+Version:          0.91
+Release:          1%{dist}
 Summary:          Sparse Linear Algebra
 
 Group:            Applications/Engineering 
@@ -53,5 +53,8 @@ rm -rf %{buildroot}
 %{rlibdir}/SparseM/extdata
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 0.91-1
+- Update to version 0.91
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 0.89-1
 - initial package for Fedora
