@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          1.0.5
-Release:          1%{?dist}
+Version:          1.0.6
+Release:          1%{dist}
 Summary:          Multiscale Analysis for Density Functions
 
 Group:            Applications/Engineering 
@@ -64,5 +64,8 @@ rm -rf %{buildroot}
 %{rlibdir}/modehunt/INDEX
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 1.0.6-1
+- Update to version 1.0.6
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 1.0.5-1
 - initial package for Fedora
