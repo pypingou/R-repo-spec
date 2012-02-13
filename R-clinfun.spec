@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          0.9.8
-Release:          1%{?dist}
+Version:          0.9.9
+Release:          1%{dist}
 Summary:          Clinical Trial Design and Data Analysis Functions
 
 Group:            Applications/Engineering 
@@ -50,5 +50,8 @@ rm -rf %{buildroot}
 %{rlibdir}/clinfun/help
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 0.9.9-1
+- Update to version 0.9.9
+
 * Thu Dec 08 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 0.9.8-1
 - initial package for Fedora
