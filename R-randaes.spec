@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          0.1
-Release:          1%{?dist}
+Version:          0.3
+Release:          1%{dist}
 Summary:          Random number generator based on AES cipher
 
 Group:            Applications/Engineering 
@@ -48,5 +48,8 @@ rm -rf %{buildroot}
 %{rlibdir}/randaes/NAMESPACE
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 0.3-1
+- Update to version 0.3
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 0.1-1
 - initial package for Fedora
