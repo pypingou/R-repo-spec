@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          2.0.0
-Release:          1%{?dist}
+Version:          2.1.0
+Release:          1%{dist}
 Summary:          Heatmaps with row and/or column covariates and colored clusters
 
 Group:            Applications/Engineering 
@@ -52,5 +52,8 @@ rm -rf %{buildroot}
 %{rlibdir}/Heatplus/NAMESPACE
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 2.1.0-1
+- Update to version 2.1.0
+
 * Fri Dec 02 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 2.0.0-1
 - initial package for Fedora
