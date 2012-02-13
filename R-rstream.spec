@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          1.3.1
-Release:          1%{?dist}
+Version:          1.3.2
+Release:          1%{dist}
 Summary:          Streams of random numbers
 
 Group:            Applications/Engineering 
@@ -50,5 +50,8 @@ rm -rf %{buildroot}
 %{rlibdir}/rstream/NAMESPACE
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 1.3.2-1
+- Update to version 1.3.2
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 1.3.1-1
 - initial package for Fedora
