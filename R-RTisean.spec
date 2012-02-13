@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          3.0.13
-Release:          1%{?dist}
+Version:          3.0.14
+Release:          1%{dist}
 Summary:          R interface to Tisean algorithms
 
 Group:            Applications/Engineering 
@@ -58,5 +58,8 @@ rm -rf %{buildroot}
 %{rlibdir}/RTisean/help
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 3.0.14-1
+- Update to version 3.0.14
+
 * Thu Nov 17 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 3.0.13-1
 - initial package for Fedora
