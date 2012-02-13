@@ -3,8 +3,8 @@
 
 
 Name:             R-%{packname}
-Version:          1.3
-Release:          1%{?dist}
+Version:          1.4
+Release:          1%{dist}
 Summary:          Gaussian Mixture Modeling algorithms. Including the belief-based mixture modeling.
 
 Group:            Applications/Engineering 
@@ -51,5 +51,8 @@ rm -rf %{buildroot}
 %{rlibdir}/bgmm/help
 
 %changelog
+* Sun Feb 12 2012 Pierre-Yves Chibon <pingou@pingoured.fr> 1.4-1
+- Update to version 1.4
+
 * Fri Nov 18 2011 Pierre-Yves Chibon <pingou@pingoured.fr> 1.3-1
 - initial package for Fedora
